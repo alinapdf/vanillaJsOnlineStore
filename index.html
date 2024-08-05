@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Shopify</title>
+  </head>
+  <body>
+    <div class="pop-up hidden">
+      <div class="pop-up-content">
+        <ul class="basket-goods">
+          <!-- <li class="basket-goods-item">
+            <div class="goods-wrapper">
+              <div class="goods-wrapper-img">
+                <img src="img/пример-картинки.jpg" alt="1" />
+              </div>
+              <div class="goods-wrapper-name">Name</div>
+              <div class="goods-wrapper-price">999</div>
+              <div class="goods-wrapper-counter-wrapper">
+                <button class="plus">+</button>
+                <div class="goods-counter">1</div>
+                <button class="minus">-</button>
+              </div>
+              <div class="goods-wrapper-total-price-name">Total price</div>
+              <div class="goods-wrapper-low-part">
+                <div class="goods-wrapper-low-part-total-price">999</div>
+                <button class="goods-wrapper-low-part-delete-img">
+                  <img src="img/trash-can-10416.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </li> -->
+        </ul>
+        <div class="total-price-in-basket">
+          <div class="total-price-in-basket-name">Total price:</div>
+          <div class="total-price-in-basket-value">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-section">
+      <div class="container">
+        <div class="nav-section-wrapper">
+          <div class="nav-section-wrapper-left-part">
+            <div class="nav-section-wrapper-left-part-logo">Shopify</div>
+            <div class="nav-section-wrapper-left-part-language">
+              <label for="language-selection">
+                <select name="language-selection" id="language-selection">
+                  <option value="eng">eng</option>
+                  <option value="az">az</option>
+                  <option value="ru">ru</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="nav-section-wrapper-search">
+            <form action="#" class="form-search">
+              <input type="text" class="search" placeholder="search" />
+            </form>
+          </div>
+          <div class="naw-section-wrapper-basket">
+            <div class="nav-section-wrapper-basket-total-price">0</div>
+            <div class="naw-section-wrapper-basket-number-of-goods">0</div>
+            <button class="naw-section-wrapper-basket-icon">
+              <img
+                src="img/shopping-cart-3041.svg"
+                alt="basket"
+                class="nav-basket-icon"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="main-section">
+        <ul class="filter-list">
+          <!-- <li class="filter-list-item">
+            <div class="filter-list-item-category">Category</div>
+            <ul class="subcategories-list">
+              <li class="sub-categories-list-item">
+                <label for="subcategory">
+                    <input type='checkbox' id="subcategory">Subcategory
+                </label>
+                
+            </li>
+            </ul>
+          </li> -->
+        </ul>
+        <div class="goods">
+          <div class="loader-wrapper hidden">
+            <div class="loader"></div>
+          </div>
+          <ul class="goods-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
